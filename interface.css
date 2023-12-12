@@ -408,6 +408,19 @@ canvas {
   background: black;    
   width: 100%;
 }
+
+#loginForm label {
+    color: white;
+}
+
+.console-input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+
 #topDIv {
   float: left;
   width: 100%;

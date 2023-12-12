@@ -39,26 +39,30 @@
         </div>
         
         <div id="consoleDiv">
-            
-            <div id="giftShopDiv" class = "shop">
-                
-                Mobile Version: <a href = "https://t.co/t7YJKgiQpr" target = "_blank">iPhone</a> / <a href = "https://t.co/vtIAcdIYEj" target = "_blank">Android</a><br />    
-                
-                T-Shirts: <a href = "https://teespring.com/stores/universal-paperclips" target="_blank" >Gift Shop</a> 
-                
+            <div id="giftShopDiv" class="shop">
+                Mobile Version: <a href="https://t.co/t7YJKgiQpr" target="_blank">iPhone</a> / <a href="https://t.co/vtIAcdIYEj" target="_blank">Android</a><br />
+                T-Shirts: <a href="https://teespring.com/stores/universal-paperclips" target="_blank">Gift Shop</a>
             </div>
 
-            <p class = "consoleOld"> 
+            <p class="consoleOld">
                 <span>&nbsp;.&nbsp;</span><span id="readout5"></span><br />
                 <span>&nbsp;.&nbsp;</span><span id="readout4"></span><br />
                 <span>&nbsp;.&nbsp;</span><span id="readout3"></span><br />
                 <span>&nbsp;.&nbsp;</span><span id="readout2"></span><br />
             </p>
-            <p class = "console"> 
-                <span>&nbsp;>&nbsp;</span><span id="readout1">Welcome to Universal Paperclips</span><span id="cursor" class = "pulsate">|</span>
+            <p class="console">
+                <span>&nbsp;>&nbsp;</span><span id="readout2">Welcome to Universal Paperclips. Please identify yourself. **bonewitz says so** :-)</span><span id="cursor" class="pulsate">|</span>
+                <br>
+                <!-- Login Form -->
+                <form id="loginForm" class="console">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" class="console-input">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" class="console-input">
+                    <input type="submit" value="Execute">
+                </form>
             </p>
-            
-        </div> 
+        </div>
         
         <div id="topDiv">
             
@@ -73,6 +77,7 @@
         </div>
             
         </div>    
+
             
         <div id="leftColumn">
         
@@ -930,7 +935,8 @@
         </div>
         <script type="text/javascript" src="combat.js"></script>     
         <script type="text/javascript" src="globals.js"></script>      
-        <script type="text/javascript" src="projects.js"></script>   
+        <script type="text/javascript" src="projects.js"></script>
+        <script type="text/javascript" src="userManagement.js"></script>   
         <script type="text/javascript" src="main.js"></script>
         
     </body>
